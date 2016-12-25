@@ -1,0 +1,24 @@
+% Dcumentation for this class is here: https://www.elsevier.com/__data/assets/pdf_file/0008/56843/elsdoc-1.pdf
+\documentclass[review]{elsarticle}
+
+\usepackage{lineno,hyperref}
+\modulolinenumbers[5]
+
+\journal{Journal of \LaTeX\ Templates}
+
+%% `Elsevier LaTeX' style
+\bibliographystyle{elsarticle-num}
+
+\begin{document}
+
+\begin{frontmatter}
+\input{frontMatter.tex}
+\end{frontmatter}
+\linenumbers
+
+% include verbatim the text from this file
+\input{text/myText.tex}
+
+\section*{References}
+\bibliography{mybibfile}
+\end{document}
